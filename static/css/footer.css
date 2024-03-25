@@ -1,0 +1,33 @@
+/* footer.css */
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222222;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  footer ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center horizontally */
+  }
+  
+  footer ul li {
+    margin: 0 20px;
+  }
+  
+  footer ul li a {
+    color: #F5F5DC; /* Creamish color for the icons */
+    font-size: 24px;
+  }
+  
+  /* Styling for specific icons */
+  footer ul li a img {
+    width: 32px; /* Adjust the width of the icons as needed */
+    height: 32px; /* Adjust the height of the icons as needed */
+  }
+  
